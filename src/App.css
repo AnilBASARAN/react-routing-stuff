@@ -2,6 +2,25 @@
   text-align: center;
 }
 
+
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: beige;
+  font-size: 2rem;
+
+}
+
+nav a:hover{
+  cursor: pointer;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,9 +43,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +52,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a{
+  text-decoration: none;
+  margin: 15px 15px;
+  color: white;
+}
+
+nav{
+ width: 40%;
+background-color: aqua;
+
+}
+
+nav .active-link{
+  border-bottom: 1px solid white;
+  color: pink;
 }
